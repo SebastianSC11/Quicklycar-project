@@ -1,0 +1,758 @@
+body {
+  overflow-x: hidden; }
+  body .topBar {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 120px;
+    background: #f2f2f2; }
+    body .topBar img {
+      width: 203px;
+      position: relative;
+      top: -41px;
+      left: 80px; }
+  body .texto {
+    width: 100%;
+    max-width: 635px;
+    height: 100%;
+    max-height: 35px; }
+    body .texto ul {
+      list-style: none;
+      font-size: 25px;
+      float: left;
+      position: absolute;
+      top: 43px;
+      left: 1125px; }
+      body .texto ul li {
+        display: inline;
+        margin-right: 50px; }
+        body .texto ul li a {
+          text-decoration: none;
+          color: #000; }
+          body .texto ul li a:hover {
+            color: #A4A4A4; }
+  body .bkHeader {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    max-height: 1263px;
+    background: #1C448E; }
+    body .bkHeader .bgk {
+      opacity: 60%;
+      width: 1920px;
+      height: 1263px; }
+    body .bkHeader .flecha {
+      width: 148px;
+      height: 148px;
+      position: absolute;
+      left: 1047.85px;
+      top: 569.03px;
+      transform: rotate(122deg); }
+    body .bkHeader .texto h2 {
+      font-size: 90px;
+      width: 1209;
+      height: 272;
+      position: absolute;
+      left: 1209px;
+      top: 272px;
+      color: white;
+      font-weight: normal; }
+    body .bkHeader .texto p {
+      font-family: "Caveat";
+      font-size: 40px;
+      color: #fff;
+      position: absolute;
+      left: 1006px;
+      top: 734px; }
+    body .bkHeader .btnCont {
+      width: 100%;
+      max-width: 277px;
+      max-height: 100%;
+      height: 61px;
+      background: #fff;
+      border: 1px #707070;
+      border-radius: 90px;
+      position: absolute;
+      top: 934px;
+      left: 822px; }
+      body .bkHeader .btnCont a {
+        text-decoration: none;
+        color: #000;
+        font-size: 30px;
+        position: absolute;
+        left: 29.25px;
+        top: 7.75px; }
+        body .bkHeader .btnCont a:hover {
+          text-decoration: underline; }
+
+.servicios {
+  max-width: 1920px;
+  width: 100%;
+  height: 750px;
+  background: #f2f2f2;
+  border: 1px #707070;
+  margin: 66px 0 198px 0; }
+  .servicios .vline {
+    background: #1C448E;
+    width: 1px;
+    height: 356px; }
+  .servicios #line1 {
+    position: absolute;
+    top: 1705.5px;
+    left: 219.5px; }
+  .servicios #line2 {
+    position: absolute;
+    top: 1705.5px;
+    left: 623px; }
+  .servicios #line3 {
+    position: absolute;
+    top: 1705.5px;
+    left: 1168.5px; }
+  .servicios #line4 {
+    position: absolute;
+    top: 1705.5px;
+    left: 1667.5px; }
+  .servicios .esp {
+    font-size: 90px;
+    position: relative;
+    top: 49px;
+    color: #1C448E;
+    font-weight: normal;
+    text-align: center;
+    align-self: flex-end; }
+  .servicios .pintura {
+    position: absolute;
+    left: 299.5px;
+    top: 1715px;
+    width: 284px;
+    height: 306px; }
+    .servicios .pintura h2 {
+      font-size: 50px;
+      font-weight: normal;
+      color: #1C448E;
+      position: relative;
+      text-align: center; }
+    .servicios .pintura ul li {
+      color: #000;
+      font-size: 30px;
+      text-align: center;
+      margin: 20px 0 20px 0;
+      list-style: unset; }
+  .servicios .avaluo {
+    width: 426px;
+    height: 289px;
+    position: absolute;
+    top: 1715px;
+    left: 703.5px; }
+    .servicios .avaluo h2 {
+      color: #1C448E;
+      font-size: 50px;
+      font-weight: normal;
+      text-align: center; }
+    .servicios .avaluo ul {
+      color: #000;
+      font-size: 30px;
+      text-align: center;
+      margin: 20px 0 20px 0;
+      list-style: unset; }
+  .servicios .enderezado {
+    width: 338px;
+    height: 289px;
+    position: absolute;
+    top: 1715px;
+    left: 1249.5px; }
+    .servicios .enderezado h2 {
+      color: #1C448E;
+      font-size: 50px;
+      font-weight: normal;
+      text-align: center; }
+    .servicios .enderezado ul {
+      color: #000;
+      font-size: 30px;
+      text-align: center;
+      margin: 20px 0 20px 0;
+      list-style: unset; }
+
+.Calidad {
+  margin-bottom: 121px;
+  max-width: 1709px;
+  width: 100%;
+  min-height: 973px;
+  height: 100%; }
+  .Calidad .img1 {
+    max-width: 507px;
+    width: 100%;
+    max-height: 338px;
+    height: 100%;
+    position: absolute;
+    left: 85px;
+    top: 2814px;
+    z-index: 2; }
+  .Calidad .bkimg1 {
+    background: #1C448E;
+    max-width: 507px;
+    width: 100%;
+    max-height: 338px;
+    height: 100%;
+    position: absolute;
+    left: 75px;
+    top: 2824px;
+    z-index: 1; }
+  .Calidad .img2 {
+    max-width: 631px;
+    width: 100%;
+    max-height: 421px;
+    height: 100%;
+    position: absolute;
+    left: 1143px;
+    top: 2309px;
+    z-index: 2; }
+  .Calidad .bkimg2 {
+    background: #1C448E;
+    max-width: 631px;
+    width: 100%;
+    max-height: 421px;
+    height: 100%;
+    position: absolute;
+    left: 1153px;
+    top: 2300px;
+    z-index: 1; }
+  .Calidad .texto h3 {
+    font-size: 90px;
+    color: #1C448E;
+    font-weight: normal; }
+  .Calidad .texto .t1 {
+    position: absolute;
+    left: 498px;
+    top: 2317px; }
+  .Calidad .texto .t2 {
+    position: absolute;
+    left: 149px;
+    top: 2455px; }
+  .Calidad .texto .t3 {
+    position: absolute;
+    left: 400px;
+    top: 2602px; }
+  .Calidad .texto .t4 {
+    position: absolute;
+    left: 684px;
+    top: 2824px; }
+  .Calidad .texto p {
+    font-size: 40px;
+    position: absolute;
+    left: 945px;
+    top: 3000px; }
+
+.beneficios {
+  max-width: 1920px;
+  width: 100%;
+  max-height: 995px;
+  height: 100%;
+  position: absolute;
+  top: 2403;
+  background: #f2f2f2;
+  border: 1px solid #000;
+  margin-bottom: 144.5px; }
+  .beneficios .up {
+    margin-top: 81px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; }
+  .beneficios h3 {
+    font-size: 44px;
+    color: #1C448E; }
+  .beneficios p {
+    font-size: 25px;
+    color: #000;
+    margin-top: 10px; }
+  .beneficios img {
+    max-width: 110px;
+    width: 100%;
+    max-height: 131px;
+    height: 100%; }
+  .beneficios .ubi {
+    max-width: 461px;
+    width: 100%;
+    max-height: 398px;
+    height: 100%; }
+    .beneficios .ubi h3 {
+      text-align: center; }
+    .beneficios .ubi p {
+      text-align: center; }
+    .beneficios .ubi img {
+      display: block;
+      margin: auto; }
+  .beneficios .precio {
+    max-width: 461px;
+    width: 100%;
+    max-height: 398px;
+    height: 100%; }
+    .beneficios .precio h3 {
+      text-align: center; }
+    .beneficios .precio p {
+      text-align: center; }
+    .beneficios .precio img {
+      display: block;
+      margin: auto;
+      position: relative;
+      top: 40px; }
+  .beneficios .rapi {
+    max-width: 461px;
+    width: 100%;
+    max-height: 398px;
+    height: 100%; }
+    .beneficios .rapi h3 {
+      text-align: center; }
+    .beneficios .rapi p {
+      text-align: center; }
+    .beneficios .rapi img {
+      display: block;
+      margin: auto; }
+  .beneficios .dw {
+    margin-top: 81px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; }
+  .beneficios .trato {
+    max-width: 461px;
+    width: 100%;
+    max-height: 398px;
+    height: 100%; }
+    .beneficios .trato h3 {
+      text-align: center; }
+    .beneficios .trato p {
+      text-align: center; }
+    .beneficios .trato img {
+      display: block;
+      margin: auto; }
+  .beneficios .horario {
+    max-width: 461px;
+    width: 100%;
+    max-height: 398px;
+    height: 100%; }
+    .beneficios .horario h3 {
+      text-align: center; }
+    .beneficios .horario p {
+      text-align: center; }
+    .beneficios .horario img {
+      display: block;
+      margin: auto;
+      position: relative;
+      top: 140px; }
+  .beneficios .tec {
+    max-width: 461px;
+    width: 100%;
+    max-height: 398px;
+    height: 100%; }
+    .beneficios .tec h3 {
+      text-align: center; }
+    .beneficios .tec p {
+      text-align: center; }
+    .beneficios .tec img {
+      display: block;
+      margin: auto;
+      position: relative;
+      top: 40px; }
+
+.calif {
+  max-width: 1920px;
+  width: 100%;
+  max-height: 400px;
+  height: 100%;
+  background: #fff;
+  border: 1px solid #000;
+  position: absolute;
+  top: 4542.5px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-top: 144.5px; }
+  .calif .carousel-item {
+    max-width: 1920px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%; }
+  .calif .carousel-inner {
+    max-width: 1920px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%; }
+    .calif .carousel-inner h3 {
+      font-size: 35px;
+      color: #000;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold; }
+    .calif .carousel-inner p {
+      font-size: 25px;
+      color: #000;
+      text-align: center;
+      margin-top: 10px;
+      font-weight: bold; }
+    .calif .carousel-inner img {
+      max-width: 122px;
+      width: 100%;
+      max-height: 124px;
+      height: 100%;
+      display: block;
+      margin: auto; }
+    .calif .carousel-inner .star {
+      max-width: 359px;
+      width: 100%;
+      max-height: 54px;
+      height: 100%;
+      margin-top: 30px; }
+
+.multimarca {
+  max-width: 1920px;
+  width: 100%;
+  max-height: 638px;
+  height: 100%;
+  background: #f2f2f2;
+  border: 1px solid #000;
+  position: absolute;
+  top: 5115px;
+  margin-top: 172.5px; }
+  .multimarca img {
+    max-width: 800px;
+    width: 100%;
+    max-height: 535px;
+    height: 100%;
+    position: absolute;
+    top: 52.3px;
+    left: 1021px; }
+  .multimarca .txt {
+    position: absolute;
+    left: 95px;
+    top: 89px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    max-width: 941px;
+    width: 100%;
+    max-height: 513px;
+    height: 100%;
+    margin-right: 62px; }
+    .multimarca .txt h2 {
+      font-size: 90px;
+      color: #1C448E;
+      text-align: center; }
+    .multimarca .txt p {
+      font-size: 40px;
+      color: #000;
+      text-align: center; }
+
+.maps {
+  max-width: 1591px;
+  width: 100%;
+  max-height: 923px;
+  height: 100%;
+  margin: 160px 0;
+  background: #fff;
+  position: absolute;
+  top: 5873px;
+  left: 165px; }
+  .maps iframe {
+    max-width: 983px;
+    width: 100%;
+    max-height: 784px;
+    height: 100%;
+    display: block;
+    margin: auto;
+    border: 1px solid #000; }
+  .maps h2 {
+    font-size: 70px;
+    font-weight: normal;
+    color: #1C448E;
+    text-align: center;
+    margin-bottom: 40px; }
+
+.contacto {
+  max-width: 884px;
+  width: 100%;
+  max-height: 1000px;
+  height: 100%;
+  position: absolute;
+  left: 518px;
+  top: 7089px; }
+  .contacto h2 {
+    font-size: 70px;
+    font-weight: normal;
+    color: #1C448E;
+    text-align: center; }
+  .contacto p {
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px; }
+  .contacto .btnCorreo {
+    max-width: 491px;
+    width: 100%;
+    max-height: 105px;
+    height: 100%;
+    border: 2px solid #1C448E;
+    border-radius: 90px;
+    position: absolute;
+    left: 196.5px;
+    top: 379px;
+    z-index: 0; }
+    .contacto .btnCorreo img {
+      max-width: 78px;
+      width: 100%;
+      max-height: 78px;
+      height: 100%;
+      display: inline;
+      position: absolute;
+      top: 12px;
+      left: 24px; }
+    .contacto .btnCorreo .hover {
+      visibility: hidden; }
+    .contacto .btnCorreo h3 {
+      text-align: center;
+      font-size: 35px;
+      font-weight: normal;
+      display: inline;
+      position: absolute;
+      top: 28px;
+      left: 40px; }
+      .contacto .btnCorreo h3 a {
+        text-decoration: none;
+        color: #000;
+        text-align: center; }
+    .contacto .btnCorreo:hover {
+      background: #1C448E; }
+      .contacto .btnCorreo:hover .hover {
+        visibility: visible; }
+      .contacto .btnCorreo:hover h3 a {
+        color: #fff; }
+  .contacto .inCont {
+    z-index: 1000; }
+    .contacto .inCont .uno {
+      clip-path: circle(0% at 0% 0%); }
+    .contacto .inCont .dos {
+      clip-path: circle(200% at 0% 0%);
+      position: fixed;
+      display: flex;
+      top: 0;
+      background: #1e3c72;
+      background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);
+      background: linear-gradient(to right, #2a5298, #1e3c72);
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+      left: 0;
+      align-items: center;
+      width: 100%;
+      transition: 1s all ease-in; }
+      .contacto .inCont .dos form {
+        max-width: 800px;
+        width: 100%;
+        max-height: 400px;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly; }
+      .contacto .inCont .dos textarea {
+        font-size: 25px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        max-width: 725px;
+        max-height: 200px;
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px 10px; }
+        .contacto .inCont .dos textarea:focus {
+          border: 2px solid #050C73;
+          outline: none; }
+      .contacto .inCont .dos input[id="correo"] {
+        font-size: 25px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        max-width: 350px;
+        max-height: 75px;
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        border-radius: 90px;
+        padding: 10px;
+        margin: 10px 10px; }
+        .contacto .inCont .dos input[id="correo"]:focus {
+          border: 2px solid #050C73;
+          outline: none; }
+      .contacto .inCont .dos input[id="nombre"] {
+        font-size: 25px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        max-width: 350px;
+        max-height: 75px;
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        border-radius: 90px;
+        padding: 10px;
+        margin: 10px 10px; }
+        .contacto .inCont .dos input[id="nombre"]:focus {
+          border: 2px solid #050C73;
+          outline: none; }
+      .contacto .inCont .dos input[id="btn"] {
+        font-size: 25px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        max-width: 725px;
+        max-height: 75px;
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        border-radius: 90px;
+        margin: 10px 10px; }
+        .contacto .inCont .dos input[id="btn"]:hover {
+          background: #fff;
+          color: #1C448E;
+          border: 1px solid #1C448E;
+          text-decoration: underline; }
+      .contacto .inCont .dos .bck {
+        max-width: 150px;
+        max-height: 75px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start; }
+        .contacto .inCont .dos .bck a {
+          font-size: 25px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          max-width: 150px;
+          max-height: 75px;
+          height: 100%;
+          width: 100%;
+          color: #fff;
+          border-radius: 90px;
+          position: fixed;
+          left: 10px;
+          top: 10px;
+          text-decoration: none; }
+          .contacto .inCont .dos .bck a:hover {
+            background: #fff;
+            color: #1C448E;
+            border: 1px solid #1C448E;
+            text-decoration: underline; }
+          .contacto .inCont .dos .bck a p {
+            font-size: 25px;
+            text-decoration: none;
+            text-align: center; }
+  .contacto .btnWhatsapp {
+    max-width: 491px;
+    width: 100%;
+    max-height: 105px;
+    height: 100%;
+    border: 2px solid #25D366;
+    border-radius: 90px;
+    position: absolute;
+    left: 196.5px;
+    top: 505px;
+    margin-top: 50px;
+    z-index: 0; }
+    .contacto .btnWhatsapp img {
+      max-width: 78px;
+      width: 100%;
+      max-height: 78px;
+      height: 100%;
+      display: inline;
+      position: absolute;
+      top: 12px;
+      left: 24px; }
+    .contacto .btnWhatsapp .hover {
+      visibility: hidden; }
+    .contacto .btnWhatsapp h3 {
+      text-align: center;
+      font-size: 35px;
+      font-weight: normal;
+      display: inline;
+      position: absolute;
+      top: 28px;
+      left: 40px; }
+      .contacto .btnWhatsapp h3 a {
+        text-decoration: none;
+        color: #000;
+        text-align: center; }
+    .contacto .btnWhatsapp:hover {
+      background: #25D366; }
+      .contacto .btnWhatsapp:hover .hover {
+        visibility: visible; }
+      .contacto .btnWhatsapp:hover h3 a {
+        color: #fff; }
+
+@keyframes moverIzquierda {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+.footer {
+  max-width: 1920px;
+  width: 100%;
+  max-height: 521px;
+  height: 100%;
+  background: #1C448E;
+  position: absolute;
+  top: 7948px;
+  left: 0;
+  margin: 0; }
+  .footer .bkFooter img {
+    max-height: 521px;
+    height: 100%;
+    opacity: 60%;
+    object-fit: cover; }
+  .footer .redes .socialMedia {
+    position: absolute;
+    top: 238px;
+    left: 229.5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center; }
+    .footer .redes .socialMedia li {
+      list-style: none; }
+      .footer .redes .socialMedia li a {
+        text-decoration: none;
+        font-size: 35px;
+        color: #fff; }
+  .footer h4 {
+    font-size: 35px;
+    color: #fff;
+    position: absolute;
+    top: 467px;
+    left: 610px; }
+  .footer .credits {
+    max-width: 508px;
+    width: 100%;
+    max-height: 0px;
+    height: 100%;
+    position: absolute;
+    top: 477px;
+    right: 10px; }
+    .footer .credits p {
+      font-size: 20px;
+      color: #fff; }
+    .footer .credits a {
+      font-size: 20px;
+      color: #fff; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 1920px; }
+
+/*# sourceMappingURL=estilos.css.map */

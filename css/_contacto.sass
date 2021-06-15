@@ -1,0 +1,235 @@
+$blanco: #f2f2f2
+$gris: #707070
+$azul: #1C448E
+
+.contacto
+  max-width: 884px
+  width: 100%
+  max-height: 1000px
+  height: 100%
+  // background: #fff
+  position: absolute
+  left: 518px
+  top: 7089px
+  // animation: moverIzquierda 1s ease
+  h2
+    font-size: 70px
+    font-weight: normal
+    color: $azul
+    text-align: center
+  p
+    font-size: 35px
+    font-weight: normal
+    text-align: center
+    margin-top: 20px
+  .btnCorreo
+    max-width: 491px
+    width: 100%
+    max-height: 105px
+    height: 100%
+    border: 2px solid $azul
+    border-radius: 90px
+    position: absolute
+    left: 196.5px
+    top: 379px
+    z-index: 0
+    img
+      max-width: 78px
+      width: 100%
+      max-height: 78px
+      height: 100%
+      display: inline
+      position: absolute
+      top: 12px
+      left: 24px
+    .hover
+      visibility: hidden
+    h3
+      text-align: center
+      font-size: 35px
+      font-weight: normal
+      display: inline
+      position: absolute
+      top: 28px
+      left: 40px
+      a
+        text-decoration: none
+        color: #000
+        text-align: center
+    &:hover
+      background: $azul
+      .hover
+        visibility: visible
+      h3
+        a
+          color: #fff
+
+
+  .inCont
+    z-index: 1000
+    .uno
+      clip-path: circle(0% at 0% 0%)
+    .dos
+      clip-path: circle(200% at 0% 0%)
+      position: fixed
+      display: flex
+      top: 0
+      background: #1e3c72
+      background: -webkit-linear-gradient(to right, #2a5298, #1e3c72)
+      background: linear-gradient(to right, #2a5298, #1e3c72)
+      justify-content: space-around
+      align-items: center
+      height: 100vh
+      left: 0
+      align-items: center
+      width: 100%
+      transition: 1s all ease-in
+      form
+        max-width: 800px
+        width: 100%
+        max-height: 400px
+        height: 100%
+        display: flex
+        flex-flow: row wrap
+        justify-content: space-evenly
+      textarea
+        font-size: 25px
+        background-color: transparent
+        border: 1px solid #fff
+        max-width: 725px
+        max-height: 200px
+        height: 100%
+        width: 100%
+        color: #fff
+        border-radius: 20px
+        padding: 10px
+        margin: 10px 10px
+        &:focus
+          border: 2px solid #050C73
+          outline: none
+      input[id="correo"]
+        font-size: 25px
+        background-color: transparent
+        border: 1px solid #fff
+        max-width: 350px
+        max-height: 75px
+        height: 100%
+        width: 100%
+        color: #fff
+        border-radius: 90px
+        padding: 10px
+        margin: 10px 10px
+        &:focus
+          border: 2px solid #050C73
+          outline: none
+      input[id="nombre"]
+        font-size: 25px
+        background-color: transparent
+        border: 1px solid #fff
+        max-width: 350px
+        max-height: 75px
+        height: 100%
+        width: 100%
+        color: #fff
+        border-radius: 90px
+        padding: 10px
+        margin: 10px 10px
+        &:focus
+          border: 2px solid #050C73
+          outline: none
+      input[id="btn"]
+        font-size: 25px
+        background-color: transparent
+        border: 1px solid #fff
+        max-width: 725px
+        max-height: 75px
+        height: 100%
+        width: 100%
+        color: #fff
+        border-radius: 90px
+        margin: 10px 10px
+        &:hover
+          background: #fff
+          color: $azul
+          border: 1px solid $azul
+          text-decoration: underline
+      .bck
+        max-width: 150px
+        max-height: 75px
+        height: 100%
+        width: 100%
+        display: flex
+        justify-content: flex-start
+        a
+          font-size: 25px
+          background-color: transparent
+          border: 1px solid #fff
+          max-width: 150px
+          max-height: 75px
+          height: 100%
+          width: 100%
+          color: #fff
+          border-radius: 90px
+          position: fixed
+          left: 10px
+          top: 10px
+          text-decoration: none
+          &:hover
+            background: #fff
+            color: $azul
+            border: 1px solid $azul
+            text-decoration: underline
+          p
+            font-size: 25px
+            text-decoration: none
+            text-align: center
+  .btnWhatsapp
+    max-width: 491px
+    width: 100%
+    max-height: 105px
+    height: 100%
+    border: 2px solid #25D366
+    border-radius: 90px
+    position: absolute
+    left: 196.5px
+    top: 505px
+    margin-top: 50px
+    z-index: 0
+    img
+      max-width: 78px
+      width: 100%
+      max-height: 78px
+      height: 100%
+      display: inline
+      position: absolute
+      top: 12px
+      left: 24px
+    .hover
+      visibility: hidden
+    h3
+      text-align: center
+      font-size: 35px
+      font-weight: normal
+      display: inline
+      position: absolute
+      top: 28px
+      left: 40px
+      a
+        text-decoration: none
+        color: #000
+        text-align: center
+    &:hover
+      background: #25D366
+      .hover
+        visibility: visible
+      h3
+        a
+          color: #fff
+
+@keyframes moverIzquierda
+  0%
+    opacity: 0
+    transform: translateX(-100px)
+  100%
+    opacity: 1
+    transform: translateX(0)
