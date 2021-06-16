@@ -3,39 +3,36 @@ $azul: #1C448E
 body
   overflow-x: hidden
   .topBar
-    width: 100%
-    height: 100%
-    max-height: 120px
+    width: 1920px
+    height: 120px
     background: #f2f2f2
+    display: flex
+    flex-flow: row nowrap
+    justify-content: space-between
+    align-items: center
+    .barMenu
     img
       width: 203px
-      position: relative
-      top: -41px
-      left: 80px
-  .texto
-    width: 100%
-    max-width: 635px
-    height: 100%
-    max-height: 35px
-    ul
-      list-style: none
-      font-size: 25px
-      float: left
-      position: absolute
-      top: 43px
-      left: 1125px
-      li
-        display: inline
-        margin-right: 50px
-        a
-          text-decoration: none
-          color: #000
-          &:hover
-            color: #A4A4A4
+    .texto
+      width: 900px
+      height: 35px
+      #barMenu
+        list-style: none
+        font-size: 25px
+        display: flex
+        flex-flow: row nowrap
+        justify-content: space-evenly
+        align-items: center
+        .barMenu
+          a
+            text-decoration: none
+            color: #000
+            font-size: 25px
+            &:hover
+              color: #A4A4A4
   .bkHeader
     width: 100%
-    height: 100%
-    max-height: 1263px
+    height: 1263px
     .bgk
       width: 1920px
       height: 1263px
@@ -47,7 +44,7 @@ body
       top: 569.03px
       transform: rotate(122deg)
     .texto
-      h2
+      h1
         font-size: 90px
         width: 1209
         height: 272
@@ -64,9 +61,8 @@ body
         left: 1006px
         top: 734px
     .btnCont
-      width: 100%
-      max-width: 277px
-      max-height: 100%
+      width: 277px
+      height: 100%
       height: 61px
       background: #fff
       border: 1px #707070
@@ -74,9 +70,6 @@ body
       position: absolute
       top: 934px
       left: 822px
-      // &:hover
-      //   background: $azul
-      //   border-color: #fff
       a
         text-decoration: none
         color: #000

@@ -3,66 +3,100 @@ $gris: #707070
 $azul: #1C448E
 
 .contacto
-  max-width: 884px
-  width: 100%
-  max-height: 1000px
-  height: 100%
+  width: 884px
+  height: 1000px
   // background: #fff
   position: absolute
   left: 518px
   top: 7089px
+  // display: flex
+  // flex-flow: column nowrap
+  // justify-content: space-between
+  // align-items: center
   // animation: moverIzquierda 1s ease
-  h2
-    font-size: 70px
-    font-weight: normal
-    color: $azul
-    text-align: center
-  p
-    font-size: 35px
-    font-weight: normal
-    text-align: center
-    margin-top: 20px
-  .btnCorreo
-    max-width: 491px
-    width: 100%
-    max-height: 105px
-    height: 100%
-    border: 2px solid $azul
-    border-radius: 90px
-    position: absolute
-    left: 196.5px
-    top: 379px
-    z-index: 0
-    img
-      max-width: 78px
-      width: 100%
-      max-height: 78px
-      height: 100%
-      display: inline
-      position: absolute
-      top: 12px
-      left: 24px
-    .hover
-      visibility: hidden
-    h3
-      text-align: center
-      font-size: 35px
-      font-weight: normal
-      display: inline
-      position: absolute
-      top: 28px
-      left: 40px
-      a
-        text-decoration: none
-        color: #000
+  .container
+    width: 884px
+    height: auto
+    display: flex
+    flex-flow: column nowrap
+    justify-content: space-between
+    align-items: center
+    .texto
+      h2
+        font-size: 70px
+        font-weight: normal
+        color: $azul
         text-align: center
-    &:hover
-      background: $azul
-      .hover
-        visibility: visible
-      h3
-        a
-          color: #fff
+      p
+        font-size: 35px
+        font-weight: normal
+        text-align: center
+        margin-top: 20px
+    .btnCorreo
+      width: 491px
+      height: 105px
+      border: 2px solid $azul
+      border-radius: 90px
+      z-index: 0
+      display: flex
+      flex-flow: row nowrap
+      justify-content: center
+      align-items: center
+      .img
+        img
+          width: 78px
+          height: 78px
+          margin: 0 10px
+      .texto
+        h3
+          text-align: center
+          font-size: 35px
+          font-weight: normal
+          a
+            text-decoration: none
+            color: #000
+            text-align: center
+      &:hover
+        background: $azul
+        img
+          filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(313deg) brightness(102%) contrast(103%)
+        h3
+          a
+            color: #fff
+    .btnWhatsapp
+      width: 491px
+      height: 105px
+      border: 2px solid #25D366
+      border-radius: 90px
+      margin-top: 50px
+      z-index: 0
+      display: flex
+      flex-flow: row nowrap
+      justify-content: center
+      align-items: center
+      .img
+        img
+          width: 78px
+          height: 78px
+          margin: 0 10px
+      .texto
+        h3
+          text-align: center
+          font-size: 35px
+          font-weight: normal
+          a
+            text-decoration: none
+            color: #000
+            text-align: center
+      &:hover
+        background: #25D366
+        img
+          filter: grayscale(100%) brightness(200%) hue-rotate(360deg) saturate(1000%) contrast(1000%)
+          -webkit-filter: grayscale(100%) brightness(200%) hue-rotate(360deg) saturate(1000%) contrast(1000%)
+          -moz-filter: grayscale(100%) brightness(200%) hue-rotate(360deg) saturate(1000%) contrast(1000%)
+        h3
+          a
+            color: #fff
 
 
   .inCont
@@ -85,10 +119,8 @@ $azul: #1C448E
       width: 100%
       transition: 1s all ease-in
       form
-        max-width: 800px
-        width: 100%
-        max-height: 400px
-        height: 100%
+        width: 800px
+        height: 400px
         display: flex
         flex-flow: row wrap
         justify-content: space-evenly
@@ -96,12 +128,10 @@ $azul: #1C448E
         font-size: 25px
         background-color: transparent
         border: 1px solid #fff
-        max-width: 725px
-        max-height: 200px
-        height: 100%
-        width: 100%
+        width: 725px
+        height: 200px
         color: #fff
-        border-radius: 20px
+        border-radius: 30px
         padding: 10px
         margin: 10px 10px
         &:focus
@@ -111,10 +141,8 @@ $azul: #1C448E
         font-size: 25px
         background-color: transparent
         border: 1px solid #fff
-        max-width: 350px
-        max-height: 75px
-        height: 100%
-        width: 100%
+        width: 350px
+        height: 75px
         color: #fff
         border-radius: 90px
         padding: 10px
@@ -126,10 +154,8 @@ $azul: #1C448E
         font-size: 25px
         background-color: transparent
         border: 1px solid #fff
-        max-width: 350px
-        max-height: 75px
-        height: 100%
-        width: 100%
+        width: 350px
+        height: 75px
         color: #fff
         border-radius: 90px
         padding: 10px
@@ -141,10 +167,8 @@ $azul: #1C448E
         font-size: 25px
         background-color: transparent
         border: 1px solid #fff
-        max-width: 725px
-        max-height: 75px
-        height: 100%
-        width: 100%
+        width: 725px
+        height: 75px
         color: #fff
         border-radius: 90px
         margin: 10px 10px
@@ -154,20 +178,16 @@ $azul: #1C448E
           border: 1px solid $azul
           text-decoration: underline
       .bck
-        max-width: 150px
-        max-height: 75px
-        height: 100%
-        width: 100%
+        width: 150px
+        height: 75px
         display: flex
         justify-content: flex-start
         a
           font-size: 25px
           background-color: transparent
           border: 1px solid #fff
-          max-width: 150px
-          max-height: 75px
-          height: 100%
-          width: 100%
+          width: 150px
+          height: 75px
           color: #fff
           border-radius: 90px
           position: fixed
@@ -183,48 +203,6 @@ $azul: #1C448E
             font-size: 25px
             text-decoration: none
             text-align: center
-  .btnWhatsapp
-    max-width: 491px
-    width: 100%
-    max-height: 105px
-    height: 100%
-    border: 2px solid #25D366
-    border-radius: 90px
-    position: absolute
-    left: 196.5px
-    top: 505px
-    margin-top: 50px
-    z-index: 0
-    img
-      max-width: 78px
-      width: 100%
-      max-height: 78px
-      height: 100%
-      display: inline
-      position: absolute
-      top: 12px
-      left: 24px
-    .hover
-      visibility: hidden
-    h3
-      text-align: center
-      font-size: 35px
-      font-weight: normal
-      display: inline
-      position: absolute
-      top: 28px
-      left: 40px
-      a
-        text-decoration: none
-        color: #000
-        text-align: center
-    &:hover
-      background: #25D366
-      .hover
-        visibility: visible
-      h3
-        a
-          color: #fff
 
 @keyframes moverIzquierda
   0%
