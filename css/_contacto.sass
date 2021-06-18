@@ -100,11 +100,13 @@ $azul: #1C448E
 
 
   .inCont
+    width: auto
+    height: auto
     z-index: 1000
     .uno
       clip-path: circle(0% at 0% 0%)
     .dos
-      clip-path: circle(200% at 0% 0%)
+      clip-path: circle(145% at 0% 0%)
       position: fixed
       display: flex
       top: 0
@@ -116,7 +118,7 @@ $azul: #1C448E
       height: 100vh
       left: 0
       align-items: center
-      width: 100%
+      width: 1920px
       transition: 1s all ease-in
       form
         width: 800px
@@ -207,7 +209,7 @@ $azul: #1C448E
 @keyframes moverIzquierda
   0%
     opacity: 0
-    transform: translateX(-100px)
+    transform: translateX(100px)
   100%
     opacity: 1
     transform: translateX(0)

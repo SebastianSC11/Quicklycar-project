@@ -1,80 +1,125 @@
 body {
   overflow-x: hidden; }
-  body .topBar {
+  body header {
+    background-image: url(../img/bkHeader.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     width: 1920px;
-    height: 120px;
-    background: #f2f2f2;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center; }
-    body .topBar img {
-      width: 203px; }
-    body .topBar .texto {
-      width: 900px;
-      height: 35px; }
-      body .topBar .texto #barMenu {
-        list-style: none;
-        font-size: 25px;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-evenly;
-        align-items: center; }
-        body .topBar .texto #barMenu .barMenu a {
+    height: 1400px; }
+    body header .topBar {
+      width: 1920px;
+      height: 120px;
+      background: #f2f2f2;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center; }
+      body header .topBar .barMenu {
+        animation: entradaDerecha 1s ease; }
+      body header .topBar img {
+        animation: entradaArriba 1s ease;
+        width: 203px; }
+      body header .topBar .texto {
+        width: 900px;
+        height: 35px; }
+        body header .topBar .texto #barMenu {
+          list-style: none;
+          font-size: 25px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-evenly;
+          align-items: center; }
+          body header .topBar .texto #barMenu .barMenu a {
+            text-decoration: none;
+            color: #000;
+            font-size: 25px; }
+            body header .topBar .texto #barMenu .barMenu a:hover {
+              color: #A4A4A4; }
+    body header .bkHeader {
+      width: 100%;
+      height: 1263px; }
+      body header .bkHeader .container {
+        animation: opacity 2s ease; }
+        body header .bkHeader .container .flecha {
+          width: 148px;
+          height: 148px;
+          position: absolute;
+          left: 1047.85px;
+          top: 569.03px;
+          transform: rotate(122deg); }
+        body header .bkHeader .container .texto h1 {
+          font-size: 90px;
+          width: 709px;
+          height: 272px;
+          position: absolute;
+          left: 1209px;
+          top: 272px;
+          color: white;
+          font-weight: normal; }
+        body header .bkHeader .container .texto p {
+          width: 492px;
+          height: 100px;
+          font-family: "Caveat";
+          font-size: 40px;
+          color: #fff;
+          position: absolute;
+          left: 1006px;
+          top: 734px; }
+      body header .bkHeader .btnCont {
+        animation: entradaAbajo 1s ease;
+        width: 277px;
+        height: 100%;
+        height: 61px;
+        background: #fff;
+        border: 1px #707070;
+        border-radius: 90px;
+        position: absolute;
+        top: 934px;
+        left: 822px; }
+        body header .bkHeader .btnCont a {
           text-decoration: none;
           color: #000;
-          font-size: 25px; }
-          body .topBar .texto #barMenu .barMenu a:hover {
-            color: #A4A4A4; }
-  body .bkHeader {
-    width: 100%;
-    height: 1263px; }
-    body .bkHeader .bgk {
-      width: 1920px;
-      height: 1263px; }
-    body .bkHeader .flecha {
-      width: 148px;
-      height: 148px;
-      position: absolute;
-      left: 1047.85px;
-      top: 569.03px;
-      transform: rotate(122deg); }
-    body .bkHeader .texto h1 {
-      font-size: 90px;
-      width: 1209;
-      height: 272;
-      position: absolute;
-      left: 1209px;
-      top: 272px;
-      color: white;
-      font-weight: normal; }
-    body .bkHeader .texto p {
-      font-family: "Caveat";
-      font-size: 40px;
-      color: #fff;
-      position: absolute;
-      left: 1006px;
-      top: 734px; }
-    body .bkHeader .btnCont {
-      width: 277px;
-      height: 100%;
-      height: 61px;
-      background: #fff;
-      border: 1px #707070;
-      border-radius: 90px;
-      position: absolute;
-      top: 934px;
-      left: 822px; }
-      body .bkHeader .btnCont a {
-        text-decoration: none;
-        color: #000;
-        font-size: 30px;
-        position: absolute;
-        left: 29.25px;
-        top: 7.75px; }
-        body .bkHeader .btnCont a:hover {
-          text-decoration: underline; }
+          font-size: 30px;
+          position: absolute;
+          left: 29.25px;
+          top: 7.75px; }
+          body header .bkHeader .btnCont a:hover {
+            text-decoration: underline; }
 
+@keyframes entradaDerecha {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+@keyframes entradaArriba {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+@keyframes opacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes entradaAbajo {
+  0% {
+    opacity: 0;
+    transform: translateY(100px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+@media only screen and (max-width: 500px) {
+  header {
+    height: 2500px;
+    background-size: cover; }
+
+  .bkHeader {
+    width: 100%;
+    height: 2500px; } }
 .servicios {
   width: 1920px;
   height: 750px;
@@ -202,22 +247,32 @@ body {
     color: #1C448E;
     font-weight: normal; }
   .Calidad .texto .t1 {
+    width: 525px;
+    height: 168px;
     position: absolute;
     left: 498px;
     top: 2317px; }
   .Calidad .texto .t2 {
+    width: 309px;
+    height: 171px;
     position: absolute;
     left: 149px;
     top: 2455px; }
   .Calidad .texto .t3 {
+    width: 775px;
+    height: 168px;
     position: absolute;
     left: 400px;
     top: 2602px; }
   .Calidad .texto .t4 {
+    width: 775px;
+    height: 168px;
     position: absolute;
     left: 684px;
     top: 2824px; }
   .Calidad .texto p {
+    width: 761px;
+    height: 236px;
     font-size: 40px;
     position: absolute;
     left: 945px;
@@ -503,11 +558,13 @@ body {
         .contacto .container .btnWhatsapp:hover h3 a {
           color: #fff; }
   .contacto .inCont {
+    width: auto;
+    height: auto;
     z-index: 1000; }
     .contacto .inCont .uno {
       clip-path: circle(0% at 0% 0%); }
     .contacto .inCont .dos {
-      clip-path: circle(200% at 0% 0%);
+      clip-path: circle(145% at 0% 0%);
       position: fixed;
       display: flex;
       top: 0;
@@ -519,7 +576,7 @@ body {
       height: 100vh;
       left: 0;
       align-items: center;
-      width: 100%;
+      width: 1920px;
       transition: 1s all ease-in; }
       .contacto .inCont .dos form {
         width: 800px;
@@ -610,23 +667,24 @@ body {
 @keyframes moverIzquierda {
   0% {
     opacity: 0;
-    transform: translateX(-100px); }
+    transform: translateX(100px); }
   100% {
     opacity: 1;
     transform: translateX(0); } }
 .footer {
   width: 1920px;
-  height: 521px;
+  height: 51.6865079365vh;
   position: absolute;
   top: 7948px;
-  margin: 0;
+  margin-top: 60px;
   padding: 0;
   background-image: url(../img/bkFooter.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1920px; }
+  background-attachment: fixed;
+  background-size: cover; }
   .footer .container {
-    height: 521px;
+    height: 51.6865079365vh;
     width: 1920px;
     display: flex;
     flex-flow: column nowrap;
@@ -677,5 +735,9 @@ body {
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0; }
+
+#entireDoc {
+  width: 1920px;
+  scroll-behavior: smooth; }
 
 /*# sourceMappingURL=estilos.css.map */
