@@ -8,6 +8,9 @@
   <meta name="og-description" content="En Quicklycar nos caracterizamos por ser un taller que se preocupa, no solo por el cliente, sino que tambien por la calidad de trabajo y por el precio, ya que siempre buscamos brindarle lo mejor al mas bajo costo">
   <meta name="description" content="En Quicklycar nos caracterizamos por ser un taller que se preocupa, no solo por el cliente, sino que tambien por la calidad de trabajo y por el precio, ya que siempre buscamos brindarle lo mejor al mas bajo costo">
   <meta name="google-site-verification" content="dTu4yoFObCx9lfHWUGRKvGuX_y8Yn3mciUs5_tu6mcU" />
+  <meta name="keywords" content="taller, pintura, enderezado, chapa, remodelado, remodelacion, automotriz, auto-pintura, auto-remodelado, reparaciones, INS, carroceria, carros, vehiculos">
+  <meta name="author" content="Sebastian Segura">
+  <meta name="robots" content="index">
   <link rel="stylesheet" href="css/estilos.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,18 +21,22 @@
   <title>Quicklycar - Taller de Enderezado y Pintura</title>
   <link rel="shortcut icon" href="img/ico.ico">
   <link rel="canonical" href="https://quirky-beaver-f3318c.netlify.app">
+  <link rel="stylesheet" href="css/pushbar.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
   <header>
     <div class="topBar">
       <img src="img/Logo Quicklycar.png" alt="Logo de Quicklycar">
       <div class="texto">
-        <ul id="barMenu">
-          <li class="barMenu"><a href="#contacto">Contacto</a></li>
-          <li class="barMenu"><a href="#servicios">Servicios</a></li>
-          <li class="barMenu"><a href="#maps">Ubicación</a></li>
-          <li class="barMenu"><a href="#contacto" class="cot">Cotización</a></li>
-        </ul>
+        <nav>
+            <ul id="barMenu">
+              <li class="barMenu"><a href="#contacto">Contacto</a></li>
+              <li class="barMenu"><a href="#servicios">Servicios</a></li>
+              <li class="barMenu"><a href="#maps">Ubicación</a></li>
+              <li class="barMenu"><a href="#contacto" class="cot">Cotización</a></li>
+            </ul>
+        </nav>
       </div>
     </div>
 
@@ -37,10 +44,14 @@
       <!-- <img class="bgk" src="img/bkHeader.jpg" alt="Taller de pintura automotriz"> -->
 
       <div class="container">
-        <img class="flecha" src="img/flecha blanca sin fondo.png" alt="flecha blanca sin fondo">
         <div class="texto">
-          <h1>El mejor taller <br>a un precio<br> increible</h1>
-          <p>Nos preocupamos por vos y tu bolsillo <br>manteniendo la calidad</p>
+          <div class="h1">
+            <h1>El mejor taller <br>a un precio<br> increible</h1>
+          </div>
+          <img class="flecha" src="img/flecha blanca sin fondo.png" alt="flecha blanca sin fondo">
+          <div class="p">
+            <p>Nos preocupamos por vos y tu bolsillo <br>manteniendo la calidad</p>
+          </div>
         </div>
 
       <div class="btnCont">
@@ -52,18 +63,23 @@
 
   <section>
     <div class="servicios" id="servicios">
-      <h2 class="esp aparece">Nuestras especialidades</h2>
+      <!-- <div class="h2S"> -->
+        <h2>Nuestras especialidades</h2>
+      <!-- </div> -->
 
       <div class="serv">
+        <div class="vline" id="line1"></div>
+
         <div class="pintura">
           <h4>Pintura</h4>
           <ul>
             <li>Pintura para aros</li>
             <li>Pintura para toda <br>la carroceria</li>
-          <li>Pulido</li>
+            <li>Pulido</li>
           </ul>
         </div>
 
+        <div class="vline" id="line2"></div>
 
         <div class="avaluo">
           <h4>Avalúos</h4>
@@ -73,6 +89,7 @@
           </ul>
         </div>
 
+        <div class="vline" id="line3"></div>
 
         <div class="enderezado">
           <h4>Enderezado</h4>
@@ -82,51 +99,50 @@
           </ul>
         </div>
 
-        <div class="vline" id="line1"></div>
-        <div class="vline" id="line2"></div>
-        <div class="vline" id="line3"></div>
-      <div class="vline" id="line4"></div>
+        <div class="vline" id="line4"></div>
       </div>
     </div>
     <article class="Calidad">
+      <div class="cImg1">
+        <img class="img1" src="img/calidad1.png" alt="Taller de pintura automotriz">
+      </div>
 
-      <img class="img1" src="img/calidad1.jpg" alt="Taller de pintura automotriz">
-      <div class="bkimg1"></div>1
-      <img class="img2" src="img/calidad2.jpg" alt="Taller de enderezado automotriz">
-      <div class="bkimg2"></div>
+      <div class="cImg2">
+        <img class="img2" src="img/calidad2.png" alt="Taller de enderezado automotriz">
+      </div>
 
       <div class="texto">
         <h3 class="t1">Los más</h3><h3 class="t2">altos</h3><h3 class="t3">estandares</h3><h3 class="t4">de calidad</h3>
-        <p>En Quicklycar buscamos siempre<br>brindarle la mejor calidad de trabajo,<br> al mas bajo precio, y a la mayor<br> velocidad</p>
+        <p>En Quicklycar buscamos siempre brindarle la mejor calidad de trabajo, al mas bajo precio, y a la mayor velocidad</p>
       </div>
     </article>
 
     <div class="beneficios">
 
-      <div class="up">
+      <div class="list">
         <div class="ubi">
-          <h4>Ubicación de<br>facil acceso</h4>
-          <p>Nos ubicamos en <b>Guadalupe</b>, un <br> lugar de fácil acceso para cualquier<br>persona del GAM</p>
+          <h4>Ubicación de facil acceso</h4>
+          <p>Nos ubicamos en <b>Guadalupe</b>, un   lugar de fácil acceso para cualquier persona del GAM</p>
           <img src="img/Medalla azul.png" alt="Medalla azul">
-      </div>
+        </div>
 
-      <div class="precio">
-          <h4>Ofrecemos el<br>mejor precio</h4>
-          <p>En Qucklycar le ofrecemos el mejor<br>precio en todo el mercado</p>
+        <div class="precio">
+          <h4>Ofrecemos el mejor precio</h4>
+          <p>En Qucklycar le ofrecemos el mejor precio en todo el mercado</p>
           <img src="img/Medalla azul.png" alt="Medalla azul">
         </div>
 
         <div class="rapi">
-          <h4>Trabajamos<br>con rapidez</h4>
-          <p>En nuestro taller trabajamos con<br>una increíble velocidad, y sin olvidar<br>darle la mejor calidad de trabajo</p>
+          <h4>Trabajamos con rapidez</h4>
+          <p>En nuestro taller trabajamos con una increíble velocidad, y sin olvidar darle la mejor calidad de trabajo</p>
           <img src="img/Medalla azul.png" alt="Medalla azul">
         </div>
       </div>
 
       <div class="dw">
         <div class="trato">
-          <h4>Brindamos el<br>mejor trato</h4>
-          <p>Nuestros asesores y mecánicos le<br>darán su mejor y más completa<br>atención</p>
+          <h4>Brindamos el mejor trato</h4>
+          <p>Nuestros asesores y mecánicos le darán su mejor y más completa atención</p>
           <img src="img/Medalla azul.png" alt="Medalla azul">
         </div>
 
@@ -137,8 +153,8 @@
         </div>
 
         <div class="tec">
-          <h4>Tecnología<br>de punta</h4>
-          <p>Utilizamos la mas innovadora y<br>mejor tecnología para usted</p>
+          <h4>Tecnología de punta</h4>
+          <p>Utilizamos la mas innovadora y mejor tecnología para usted</p>
           <img src="img/Medalla azul.png" alt="Medalla azul">
         </div>
       </div>
@@ -191,14 +207,14 @@
       <div class="multimarca">
         <div class="txt">
           <h2>Somos multimarca</h2>
-          <p>Nos preocupa que la marca de su carro <br>no sea un impedimento para<br>poder trabajar. Es por eso que en<br>Quicklycar manejamos una gran<br>cantidad de marcas. ¡Consulte por<br>la suya!</p>
+          <p>Nos preocupa que la marca de su carro no sea un impedimento para poder trabajar. Es por eso que en Quicklycar manejamos una gran cantidad de marcas. ¡Consulte por la suya!</p>
         </div>
         <img src="img/marcas.png" alt="Marcas de carros">
       </div>
 
       <div class="maps" id="maps">
         <h2>¿Sabes donde nos encontramos?</h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.4605778955521!2d-84.05730057328802!3d9.947074992887533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e5313f3df3f1%3A0xe00bc4c330495107!2sQuicklycar!5e0!3m2!1ses-419!2scr!4v1623633627911!5m2!1ses-419!2scr" width="600" height="450" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.4605778955521!2d-84.05730057328802!3d9.947074992887533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e5313f3df3f1%3A0xe00bc4c330495107!2sQuicklycar!5e0!3m2!1ses-419!2scr!4v1623633627911!5m2!1ses-419!2scr" width="600" height="784" allowfullscreen="" loading="lazy"></iframe>
       </div>
 
       <div class="contacto" id="contacto">
@@ -245,17 +261,18 @@
   </section>
 
   <footer class="footer" id="footer">
-    <div class="container">
+    <!-- <div class="container"> -->
         <ul class="socialMedia">
           <li class="sociaLi"><a href="#">Facebook</a></li>
           <li class="sociaLi"><a href="#contacto">WhatsApp</a></li>
           <li class="sociaLi"><a href="#contacto">Correo</a></li>
         </ul>
 
-      <div class="final"><div class="derechos"><p>©2021 - Todos los derechos reservados<p></div>
-
-      <div class="credits"><p>Website designed and coded by <a href="#">Sebastian Segura</a></p></div></div>
-    </div>
+      <div class="final">
+        <div class="derechos"><p>©2021 - Todos los derechos reservados<p></div>
+        <div class="credits"><p>Website designed and coded by <a href="#">Sebastian Segura</a></p></div>
+      </div>
+    <!-- </div> -->
   </footer>
 
   <script src="js/script.js" charset="utf-8"></script>
