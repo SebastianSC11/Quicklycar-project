@@ -841,33 +841,30 @@ body {
             color: #1C448E;
             border: 1px solid #1C448E;
             text-decoration: underline; }
-      .contacto .inCont .dos .bck {
-        width: 150px;
-        height: 75px;
-        display: flex;
-        justify-content: flex-start; }
-        .contacto .inCont .dos .bck a {
-          font-size: 25px;
-          background-color: transparent;
-          border: 1px solid #fff;
-          width: 150px;
-          height: 75px;
-          color: #fff;
-          border-radius: 90px;
-          position: fixed;
-          left: 10px;
-          top: 10px;
-          text-decoration: none; }
-          .contacto .inCont .dos .bck a:hover {
-            background: #fff;
-            color: #1C448E;
-            border: 1px solid #1C448E;
-            text-decoration: underline; }
-          .contacto .inCont .dos .bck a p {
+        .contacto .inCont .dos form .bck {
+          width: 95%;
+          height: 18.75%;
+          display: flex;
+          justify-content: flex-start; }
+          .contacto .inCont .dos form .bck a {
             font-size: 25px;
-            margin-top: 19px;
-            text-decoration: none;
-            text-align: center; }
+            background-color: transparent;
+            border: 1px solid #fff;
+            width: 750px;
+            height: 75px;
+            color: #fff;
+            border-radius: 90px;
+            text-decoration: none; }
+            .contacto .inCont .dos form .bck a:hover {
+              background: #fff;
+              color: #1C448E;
+              border: 1px solid #1C448E;
+              text-decoration: underline; }
+            .contacto .inCont .dos form .bck a p {
+              font-size: 25px;
+              margin-top: 19px;
+              text-decoration: none;
+              text-align: center; }
 
 @keyframes moverIzquierda {
   0% {
@@ -941,8 +938,10 @@ body {
       font-size: 20px;
       width: 250px;
       flex-shrink: 0; }
-  .contacto .inCont .dos .bck {
-    display: none; } }
+    .contacto .inCont .dos form .bck {
+      font-size: 20px;
+      width: 250px;
+      flex-shrink: 0; } }
 @media screen and (max-width: 450px) {
   .contacto .container .texto h2 {
     font-size: 40px; }
