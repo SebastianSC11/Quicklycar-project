@@ -40,11 +40,24 @@ $azul: #1C448E
       p
         font-size: 25px
 
-@media screen and (max-width: 450px)
+@media screen and (max-width: 616px)
   .multimarca
     width: auto
+    display: flex
+    flex-flow: column nowrap
+    justify-content: center
+    align-items: center
+    align-content: center
+    img
+      width: 95%
     .txt
+      margin-right: 0
       width: auto
+
+@media screen and (max-width: 450px)
+  .multimarca
+    img
+    .txt
       h2
         font-size: 40px
       p

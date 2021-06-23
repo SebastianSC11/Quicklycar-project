@@ -118,64 +118,64 @@ $azul: #1C448E
       width: 100%
       transition: 1s all ease-in
       form
-        width: 800px
-        height: 400px
+        width: 41%
+        height: 37%
         display: flex
         flex-flow: row wrap
         justify-content: space-evenly
-      textarea
-        font-size: 25px
-        background-color: transparent
-        border: 1px solid #fff
-        width: 725px
-        height: 200px
-        color: #fff
-        border-radius: 30px
-        padding: 10px
-        margin: 10px 10px
-        &:focus
-          border: 2px solid #050C73
-          outline: none
-      input[id="correo"]
-        font-size: 25px
-        background-color: transparent
-        border: 1px solid #fff
-        width: 350px
-        height: 75px
-        color: #fff
-        border-radius: 90px
-        padding: 10px
-        margin: 10px 10px
-        &:focus
-          border: 2px solid #050C73
-          outline: none
-      input[id="nombre"]
-        font-size: 25px
-        background-color: transparent
-        border: 1px solid #fff
-        width: 350px
-        height: 75px
-        color: #fff
-        border-radius: 90px
-        padding: 10px
-        margin: 10px 10px
-        &:focus
-          border: 2px solid #050C73
-          outline: none
-      input[id="btn"]
-        font-size: 25px
-        background-color: transparent
-        border: 1px solid #fff
-        width: 725px
-        height: 75px
-        color: #fff
-        border-radius: 90px
-        margin: 10px 10px
-        &:hover
-          background: #fff
-          color: $azul
-          border: 1px solid $azul
-          text-decoration: underline
+        textarea
+          font-size: 25px
+          background-color: transparent
+          border: 1px solid #fff
+          width: 725px
+          height: 200px
+          color: #fff
+          border-radius: 30px
+          padding: 20px
+          margin: 10px 10px
+          &:focus
+            border: 2px solid #050C73
+            outline: none
+        input[type="email"]
+          font-size: 25px
+          background-color: transparent
+          border: 1px solid #fff
+          width: 350px
+          height: 75px
+          color: #fff
+          border-radius: 90px
+          padding: 20px
+          margin: 10px 10px
+          &:focus
+            border: 2px solid #050C73
+            outline: none
+        input[type="text"]
+          font-size: 25px
+          background-color: transparent
+          border: 1px solid #fff
+          width: 350px
+          height: 75px
+          color: #fff
+          border-radius: 90px
+          padding: 20px
+          margin: 10px 10px
+          &:focus
+            border: 2px solid #050C73
+            outline: none
+        input[id="btn"]
+          font-size: 25px
+          background-color: transparent
+          border: 1px solid #fff
+          width: 725px
+          height: 75px
+          color: #fff
+          border-radius: 90px
+          margin: 10px 10px
+          &:hover
+            background: #fff
+            color: $azul
+            border: 1px solid $azul
+            text-decoration: underline
       .bck
         width: 150px
         height: 75px
@@ -254,6 +254,40 @@ $azul: #1C448E
               text-decoration: none
               color: #000
               text-align: center
+    .inCont
+      .dos
+        form
+          align-self: flex-start
+          textarea
+            font-size: 20px
+            width: 250px
+            flex-shrink: 0
+          input[type="email"]
+            font-size: 20px
+            background-color: transparent
+            border: 1px solid #fff
+            width: 250px
+            height: 75px
+            color: #fff
+            border-radius: 90px
+            padding: 20px
+            margin: 10px 10px
+          input[type="text"]
+            font-size: 20px
+            background-color: transparent
+            border: 1px solid #fff
+            width: 250px
+            height: 75px
+            color: #fff
+            border-radius: 90px
+            padding: 20px
+            margin: 10px 10px
+          input[id="btn"]
+            font-size: 20px
+            width: 250px
+            flex-shrink: 0
+        .bck
+          display: none
 
 @media screen and (max-width: 450px)
   .contacto
