@@ -160,6 +160,153 @@ body {
       left: -50px;
       margin-left: 50px;
       font-size: 20px; } }
+.mecanicaRapida .container {
+  margin: 50px 0;
+  background: #1C448E;
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center; }
+  .mecanicaRapida .container .Titulo {
+    margin: 45px 0;
+    font-size: 60px;
+    color: #f2f2f2;
+    text-align: center; }
+  .mecanicaRapida .container .Ofrecemos {
+    font-size: 40px;
+    color: #f2f2f2; }
+  .mecanicaRapida .container .serviciosMecaRap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1920px; }
+    .mecanicaRapida .container .serviciosMecaRap .cambiosAceite {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 100px;
+      text-align: center; }
+      .mecanicaRapida .container .serviciosMecaRap .cambiosAceite h3 {
+        color: #f2f2f2;
+        font-size: 40px; }
+      .mecanicaRapida .container .serviciosMecaRap .cambiosAceite p {
+        color: #f2f2f2;
+        font-size: 30px;
+        text-align: center; }
+      .mecanicaRapida .container .serviciosMecaRap .cambiosAceite .img {
+        width: 100%; }
+        .mecanicaRapida .container .serviciosMecaRap .cambiosAceite .img img {
+          width: 289px; }
+    .mecanicaRapida .container .serviciosMecaRap .aireAcondicionado {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 100px;
+      text-align: center; }
+      .mecanicaRapida .container .serviciosMecaRap .aireAcondicionado h3 {
+        color: #f2f2f2;
+        font-size: 40px; }
+      .mecanicaRapida .container .serviciosMecaRap .aireAcondicionado p {
+        color: #f2f2f2;
+        font-size: 30px;
+        text-align: center; }
+      .mecanicaRapida .container .serviciosMecaRap .aireAcondicionado .img {
+        width: 100%; }
+        .mecanicaRapida .container .serviciosMecaRap .aireAcondicionado .img img {
+          width: 289px; }
+    .mecanicaRapida .container .serviciosMecaRap .autoDec {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 100px;
+      text-align: center; }
+      .mecanicaRapida .container .serviciosMecaRap .autoDec h3 {
+        color: #f2f2f2;
+        font-size: 40px; }
+      .mecanicaRapida .container .serviciosMecaRap .autoDec p {
+        color: #f2f2f2;
+        font-size: 30px;
+        text-align: center; }
+        .mecanicaRapida .container .serviciosMecaRap .autoDec p a {
+          text-decoration: underline;
+          color: #f2f2f2; }
+      .mecanicaRapida .container .serviciosMecaRap .autoDec .img {
+        width: 100%; }
+        .mecanicaRapida .container .serviciosMecaRap .autoDec .img img {
+          width: 289px; }
+    .mecanicaRapida .container .serviciosMecaRap .mecaRap {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 100px;
+      text-align: center; }
+      .mecanicaRapida .container .serviciosMecaRap .mecaRap h3 {
+        color: #f2f2f2;
+        font-size: 40px; }
+      .mecanicaRapida .container .serviciosMecaRap .mecaRap p {
+        color: #f2f2f2;
+        font-size: 30px;
+        text-align: center; }
+      .mecanicaRapida .container .serviciosMecaRap .mecaRap .img {
+        width: 100%; }
+        .mecanicaRapida .container .serviciosMecaRap .mecaRap .img img {
+          width: 289px; }
+
+@media screen and (max-width: 800px) {
+  .mecanicaRapida .container .Titulo {
+    font-size: 40px; }
+  .mecanicaRapida .container .Ofrecemos {
+    font-size: 30px; }
+  .mecanicaRapida .container .serviciosMecaRap {
+    width: 50%; }
+    .mecanicaRapida .container .serviciosMecaRap .cambiosAceite h3 {
+      font-size: 30px; }
+    .mecanicaRapida .container .serviciosMecaRap .cambiosAceite p {
+      font-size: 25px; }
+    .mecanicaRapida .container .serviciosMecaRap .aireAcondicionado h3 {
+      font-size: 30px; }
+    .mecanicaRapida .container .serviciosMecaRap .aireAcondicionado p {
+      font-size: 25px; }
+    .mecanicaRapida .container .serviciosMecaRap .autoDec h3 {
+      font-size: 30px; }
+    .mecanicaRapida .container .serviciosMecaRap .autoDec p {
+      font-size: 25px; }
+    .mecanicaRapida .container .serviciosMecaRap .mecaRap h3 {
+      font-size: 30px; }
+    .mecanicaRapida .container .serviciosMecaRap .mecaRap p {
+      font-size: 25px; } }
+@media screen and (max-width: 550px) {
+  .mecanicaRapida .container .serviciosMecaRap .cambiosAceite h3 {
+    font-size: 25px; }
+  .mecanicaRapida .container .serviciosMecaRap .cambiosAceite p {
+    font-size: 15px; }
+  .mecanicaRapida .container .serviciosMecaRap .cambiosAceite .img img {
+    width: 150px; }
+  .mecanicaRapida .container .serviciosMecaRap .aireAcondicionado h3 {
+    font-size: 25px; }
+  .mecanicaRapida .container .serviciosMecaRap .aireAcondicionado p {
+    font-size: 15px; }
+  .mecanicaRapida .container .serviciosMecaRap .aireAcondicionado .img img {
+    width: 150px; }
+  .mecanicaRapida .container .serviciosMecaRap .autoDec h3 {
+    font-size: 25px; }
+  .mecanicaRapida .container .serviciosMecaRap .autoDec p {
+    font-size: 15px; }
+  .mecanicaRapida .container .serviciosMecaRap .autoDec .img img {
+    width: 150px; }
+  .mecanicaRapida .container .serviciosMecaRap .mecaRap h3 {
+    font-size: 25px; }
+  .mecanicaRapida .container .serviciosMecaRap .mecaRap p {
+    font-size: 15px; }
+  .mecanicaRapida .container .serviciosMecaRap .mecaRap .img img {
+    width: 150px; } }
 .servicios {
   width: 100%;
   height: auto;

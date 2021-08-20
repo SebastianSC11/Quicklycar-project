@@ -1,0 +1,72 @@
+$blanco: #f2f2f2
+$gris: #707070
+$azul: #1C448E
+
+.multimarca
+  width: 100%
+  height: 59%
+  background: $blanco
+  border: 1px solid #000
+  margin-top: 172.5px
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-around
+  align-items: center
+  img
+    margin: 50px 0
+    width: 41%
+    height: 27%
+  .txt
+    display: flex
+    flex-flow: column nowrap
+    justify-content: center
+    width: 49%
+    height: 26%
+    margin-right: 62px
+    h2
+      font-size: 90px
+      color: $azul
+      text-align: center
+    p
+      font-size: 40px
+      color: #000
+      text-align: center
+
+@media screen and (max-width: 850px)
+  .multimarca
+    .txt
+      h2
+        font-size: 50px
+      p
+        font-size: 25px
+
+@media screen and (max-width: 616px)
+  .multimarca
+    width: auto
+    display: flex
+    flex-flow: column nowrap
+    justify-content: center
+    align-items: center
+    align-content: center
+    img
+      width: 95%
+    .txt
+      margin-right: 0
+      width: auto
+
+@media screen and (max-width: 450px)
+  .multimarca
+    img
+    .txt
+      h2
+        font-size: 40px
+      p
+        font-size: 20px
+
+// @media only screen and (max-width: 800px) and (min-width: 500px)
+//   .multimarca
+//     top: 388.4375em
+//
+// @media only screen and (max-width: 500px) and (min-width: 200px)
+//   .multimarca
+//     top: 488.4375em

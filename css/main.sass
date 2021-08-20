@@ -1,0 +1,474 @@
+$blanco: #f2f2f2
+$gris: #707070
+$azul: #1C448E
+
+.servicios
+  width: 100%
+  height: auto
+  background: $blanco
+  border: 1px $gris
+  margin: 66px 0 198px 0
+  display: flex
+  flex-flow: column nowrap
+  justify-content: space-around
+  align-items: center
+  h2
+    font-size: 5.625rem
+    color: $azul
+    font-weight: normal
+    text-align: center
+    align-self: center
+  .serv
+    margin: 80px 0
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-around
+    align-items: center
+    .vline
+      background: $azul
+      width: 1px
+      height: 365px
+    .pintura
+      width: 345px
+      margin: 0 30px
+      height: 302px
+      h4
+        font-size: 50px
+        font-weight: normal
+        color: $azul
+        text-align: center
+      ul
+        li
+          color: #000
+          font-size: 30px
+          text-align: center
+          margin: 20px 0 20px 0
+          list-style: initial
+    .avaluo
+      width: 422px
+      height: 302px
+      margin: 0 30px
+      h4
+        color: $azul
+        font-size: 50px
+        font-weight: normal
+        text-align: center
+      ul
+        li
+          color: #000
+          font-size: 30px
+          text-align: center
+          margin: 20px 0 20px 0
+          list-style: initial
+    .enderezado
+      width: 400px
+      height: 302px
+      margin: 0 30px
+      h4
+        color: $azul
+        font-size: 50px
+        font-weight: normal
+        text-align: center
+      ul
+        li
+          color: #000
+          font-size: 30px
+          text-align: center
+          margin: 20px 0 20px 0
+          list-style: initial
+
+@media screen and (max-width: 1350px)
+  .servicios
+    .serv
+      #line4
+        display: none
+
+@media screen and (max-width: 889px)
+  .servicios
+    .serv
+      .vline
+        display: none
+      .pintura
+        ul
+          list-style: none
+          li
+            text-align: center
+            list-style: none
+      .avaluo
+        ul
+          list-style: none
+          li
+            text-align: center
+            list-style: none
+      .enderezado
+        ul
+          list-style: none
+          li
+            text-align: center
+            list-style: none
+
+@media screen and (max-width: 800px)
+  .servicios
+    h2
+      font-size: 50px
+
+@media screen and (max-width: 550px)
+  .servicios
+    width: auto
+    .serv
+      flex-flow: column nowrap
+      justify-content: center
+      align-items: center
+      align-content: center
+      width: auto
+      .pintura
+        align-self: center
+        margin: 20px 20px 0 0
+        width: auto
+        height: auto
+      .avaluo
+        align-self: center
+        margin: 20px 20px 0 0
+        width: auto
+        height: auto
+      .enderezado
+        align-self: center
+        margin: 20px 20px 0 0
+        width: auto
+        height: auto
+@media screen and (max-width: 450px)
+  .servicios
+    h2
+      font-size: 35px
+    .serv
+      .pintura
+        h4
+          margin-left: 28px
+          font-size: 30px
+        ul
+          li
+            font-size: 20px
+      .avaluo
+        h4
+          margin-left: 28px
+          font-size: 30px
+        ul
+          li
+            font-size: 20px
+      .enderezado
+        h4
+          margin-left: 28px
+          font-size: 30px
+        ul
+          li
+            font-size: 20px
+.Calidad
+  margin-bottom: 121px
+  width: auto
+  height: auto
+  display: flex
+  flex-flow: row nowrap
+  justify-content: space-around
+  text-align: center
+  .cImg1
+    width: 96%
+    max-width: 500px
+    margin: 0 auto
+    align-self: flex-end
+    order: 2
+    margin: 0 auto 0 40px
+    .img1
+      // position: relative
+      // right: 65%
+      // bottom: 2%
+      max-width: 100%
+      height: auto
+      // flex-grow: 1
+      // flex-shrink: 1
+  .cImg2
+    width: 96%
+    max-width: 600px
+    order: 3
+    margin: 0 40px 0 auto
+    .img2
+      // position: relative
+      // top: 1%
+      // left: 18%
+      width: 100%
+      height: auto
+      // flex-grow: 1%
+  .texto
+    align-self: center
+    order: 2
+    width: auto
+    height: 100%
+    display: flex
+    flex-direction: column
+    flex-wrap: nowrap
+    justify-content: center
+    align-items: center
+    align-content: center
+    h3
+      font-size: 90px
+      color: $azul
+      font-weight: normal
+      margin: 2% 0
+    .t1
+      align-self: center
+    .t2
+      align-self: flex-start
+      position: relative
+      right: 12%
+    .t3
+      align-self: center
+      position: relative
+      left: 2%
+    .t4
+      align-self: flex-end
+      position: relative
+      left: 20%
+    p
+      align-self: flex-end
+      text-align: left
+      font-size: 40px
+      position: relative
+      left: 20%
+      width: auto
+      height: auto
+
+@media screen and (max-width: 1430px)
+  .Calidad
+    .texto
+      h3
+        font-size: 70px
+      p
+        font-size: 35px
+
+@media screen and (max-width: 800px)
+  .Calidad
+    .texto
+      h3
+        font-size: 50px
+      p
+        font-size: 25px
+
+@media screen and (max-width: 600px)
+  .Calidad
+    flex-flow: column wrap
+    .cImg1
+      align-self: center
+      order: 3
+      margin: 30px 0
+    .cImg2
+      order: 2
+      margin: 30px 0
+      align-self: center
+    .texto
+      order: 1
+      align-self: flex-start
+      .t1
+        align-self: center
+        position: static
+      .t2
+        align-self: center
+        position: static
+      .t3
+        align-self: center
+        position: static
+      .t4
+        align-self: center
+        position: static
+      p
+        text-align: center
+        align-self: center
+        position: static
+
+@media screen and (max-width: 420px)
+  .Calidad
+    .texto
+      h3
+        font-size: 40px
+      p
+        font-size: 20px
+  // .img1
+  //   width: 15%
+  //   height: auto
+  // .img2
+  //   width: 15%
+  //   height: auto
+
+.beneficios
+  width: 100%
+  height: 92%
+  background: $blanco
+  border: 1px solid #000
+  margin-bottom: 144.5px
+  // display: flex
+  // flex-flow: row nowrap
+  // justify-content: space-around
+  // align-items: center
+  .list
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-evenly
+    width: 92.29%
+    height: 37.03%
+    align-items: center
+    margin: 20px 70px
+    h4
+      font-size: 2.75rem
+      color: $azul
+    p
+      font-size: 1.563rem
+      color: #000
+      margin-top: 10px
+      b
+        font-size: 1.563rem
+    img
+      width: 20%
+      height: auto
+    .ubi
+      width: 460px
+      height: 398px
+      h4
+        text-align: center
+      p
+        text-align: center
+      img
+        display: block
+        margin: auto
+    .precio
+      width: 460px
+      height: 398px
+      h4
+        text-align: center
+      p
+        text-align: center
+      img
+        display: block
+        margin: auto
+        position: relative
+        top: 40px
+
+    .rapi
+      width: 460px
+      height: 398px
+      h4
+        text-align: center
+      p
+        text-align: center
+      img
+        display: block
+        margin: auto
+  .dw
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-evenly
+    width: 92.29%
+    height: 37.03%
+    margin: 100px 70px 20px 70px
+    h4
+      font-size: 2.75rem
+      color: $azul
+    p
+      font-size: 1.563rem
+      color: #000
+      margin-top: 10px
+      b
+        font-size: 1.563rem
+    img
+      width: 20%
+      height: auto
+    .trato
+      width: 460px
+      height: 398px
+      // flex-basis: 28.01%
+      h4
+        text-align: center
+      p
+        text-align: center
+      img
+        display: block
+        margin: auto
+    .horario
+      width: 460px
+      height: 398px
+      h4
+        text-align: center
+      p
+        text-align: center
+      img
+        display: block
+        margin: auto
+        position: relative
+        top: 80px
+    .tec
+      width: 460px
+      height: 398px
+      h4
+        text-align: center
+      p
+        text-align: center
+      img
+        display: block
+        margin: auto
+        position: relative
+        top: 40px
+
+@media screen and (max-width: 900px)
+  .beneficios
+    .list
+      width: auto
+      h4
+        font-size: 2.25rem
+      p
+        font-size: 1rem
+        color: #000
+        margin-top: 10px
+        b
+          font-size: 1rem
+      img
+        width: 35%
+        height: auto
+    .dw
+      width: auto
+      h4
+        font-size: 2.25rem
+      p
+        font-size: 1rem
+        color: #000
+        margin-top: 10px
+        b
+          font-size: 1rem
+      img
+        width: 35%
+        height: auto
+// @media only screen and (max-width: 800px) and (min-width: 500px)
+//   .servicios
+//     position: absolute
+//     top: 141.625em
+//     margin-top: 0
+//
+//   .Calidad
+//     position: absolute
+//     top: 193.75em
+//
+//   .beneficios
+//     position: absolute
+//     top: 289.25em
+//
+// @media only screen and (max-width: 500px) and (min-width: 200px)
+//   .servicios
+//     position: absolute
+//     top: 241.625em
+//     margin-top: 0
+//
+//   .Calidad
+//     position: absolute
+//     top: 293.75em
+//
+//   .beneficios
+//     position: absolute
+//     top: 389.25em
