@@ -1,0 +1,60 @@
+$blanco: #f2f2f2
+$gris: #707070
+$azul: #1C448E
+
+.financiamiento
+    background: $blanco
+    max-width: 1920px
+    .container
+        width: 100%
+        display: flex
+        flex-flow: row wrap
+        justify-content: space-between
+        align-items: center
+        .titulo
+            color: $azul
+            font-size: 60px
+            text-align: center
+            align-self: self-start
+            margin-top: 50px
+        .low
+            display: flex
+            flex-flow: row nowrap
+            justify-content: space-between
+            align-items: center
+            margin: 60px 0
+            .img
+                width: 100%
+                img
+                    width: 250px
+            .txt
+                color: $azul
+                font-size: 40px
+                text-align: center
+
+
+@media screen and (max-width: 800px)
+    .financiamiento
+        .container
+            .titulo
+                font-size: 40px
+            .low
+                .img
+                    img
+                        width: 150px
+                .txt
+                    font-size: 25px
+
+@media screen and (max-width: 500px)
+    .financiamiento
+        .container
+            .titulo
+                font-size: 30px
+            .low
+                .img
+                    img
+                        width: 100px
+                .txt
+                    font-size: 15px
+                
+                
