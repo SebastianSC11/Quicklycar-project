@@ -698,7 +698,8 @@ body {
       height: auto; } }
 .financiamiento {
   background: #f2f2f2;
-  max-width: 1920px; }
+  max-width: 1920px;
+  margin: 0px 0 200px 0; }
   .financiamiento .container {
     width: 100%;
     display: flex;
